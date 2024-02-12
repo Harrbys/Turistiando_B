@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+*{
+    font-family: 'Protest Revolution', sans-serif;
+    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* estilo encabezado */
+header{
+    width: 100%;
+    padding: 0px 00px 00px 0px;
+    background-size: cover;
+    background-position: center;
+    background: #1fdaff74;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49b5a37e, #3c92a573);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b5ac497d, #3ca55c71), url("../img/bg-header.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+header nav{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Londrina Solid';
+}
+
+
+header #algo{
+    padding-top: 200px;
+    margin-top: 200px;
+}
+
+/*mover a la derecho o izquierda los link de direccionamiento*/
+
+header nav ul{
+    display: flex;
+    padding-right: 100px;
+    margin-right: 0px;
+
+}
+
+/* lo de abajo es para colocar espcio a los links de direccionamiento*/
+
+header nav li{
+    margin-right: 100px;
+    list-style: none;
+    
+}
+
+/*color y decoracion de los links de direcionamiento*/
+
+header nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/*Decorcion de los links*/
+
+:hover header nav li a{
+    text-decoration: dashed;
+}
+
+/* main */
+main{
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+}
+
+#logo img{
+    margin-left: 100px;
+    transition: 2s;
+}
+
+#logo img:hover{
+    transform: scale(1.2);
+}
+
+/*ubicacion del centro */
+
+#hero{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    
+}
+
+#hero1{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#hero h2{
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);;
+    margin-bottom: 40px;
+}
+
+#hero h3{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 100px;
+}
+
+#hero h1{
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#hero1 h2{
+    font-size: 90px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+#hero1 p{
+    font-size: 30px;
+    color: #4e4b4b;
+    margin-bottom: 50px;
+}
+
+
+button{
+    width: 120px;
+    height: 50px;
+    background-color: #838370;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: #000000;
+}
+
+header img{
+    max-width: 200px;
+    transition: 50s;
+    
+}
+
+
+
+#lugares{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    /*box-shadow: 0px 10px 90px 200px rgba(255, 255, 255, 0.7);*/
+
+}
+.col-plan img{
+    width: 350px; /* Ancho de la imagen */
+    height: 200px; /* Altura de la imagen */
+    clip-path: polygon(50% 0%, 85% 25%, 85% 75%, 50% 100%, 15% 75%, 15% 25%);
+    transition: 1s;
+}
+
+.col-plan img:hover{  
+    transform: scale(1.1);
+}
+
+#lugares h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+#lugares h3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+#lugares p{
+    font-size: 15px;
+
+}
+
+#lugares .fila{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+/* EVENTO */
+
+#evento{
+    width: 100%;
+    /*background-image: url(../img/bg-destinos.png);*/
+    text-align: center;
+    /*padding-top: 150px;*/
+    padding-bottom: 0px;
+
+    background: #77dd77;
+
+}
+
+.col-plane1 .textbox{
+    margin-right: 30px;
+    padding-top: 0px;
+}
+.col-plane2 .textbox{
+    margin-left: 30px;
+    padding-top: 0px;
+}
+
+.col-plane1 img{
+    border-radius: 30px ;
+    width: 350px; /* Ancho de la imagen */
+    height: 200px; /* Altura de la imagen */
+    float: left;
+    margin-left: 100PX;
+    margin-right: 100PX;
+    
+}
+
+.col-plane2 img{
+    width: 350px; /* Ancho de la imagen */
+    height: 200px; /* Altura de la imagen */
+    float: right;
+    margin-left: 100PX;
+    margin-right: 150PX;
+    border-radius: 30px ;
+}
+
+#evento h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #000000;
+}
+#evento .col-plane2 h3{
+    color: #000000;
+    text-align: right;
+}
+
+#evento .col-plane1 h3{
+    color: #000000;
+    text-align: left;
+}
+/* UBICANOS */
+#Ubicanos h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #000000;
+}
+#Ubicanos iframe{
+    width: 90%;
+    height: 300px;
+}
+
+/* CONTACTO */
+
+#Contacto{
+    width: 100%;
+    background-color: #77dd77;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#Contacto h2{
+    margin-bottom: 25px;
+    font-size: 50px;
+    color: #000000;
+}
+
+#Contacto p{
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+
+
+#Contacto input{
+    margin-bottom: 25px;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-color: rgb(224, 201, 201);
+    justify-content: space-evenly;
+    border-radius: 5px;
+    
+}
+
+#Contacto select{
+    margin-bottom: 25px;
+    margin-right: 10px;
+    padding-right: 100px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-color: rgb(224, 201, 201);
+    justify-content: space-evenly;
+    border-radius: 5px;
+    
+}
+
+#Contacto button{
+    width: 120px;
+    height: 50px;
+    background-color: #838370;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+#Contacto button:hover{
+    transform: scale(1.2);
+    background-color: #000000;
+}
+/* FOOTER */
+
+
+#foot{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    padding-bottom: 50px;
+    background: #3ca55c74;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b5ac497e, #3ca55c73);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b5ac497d, #3ca55c71), url("../img/foot"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+    header{
+        background: #000000;
+        
+    }
+
+    header nav{
+        display: block;
+        text-align: center;
+        width: 96%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    header{
+        background-color: #00f7ff;
+    }
+}
+/* body{
+    background-image: url(../img/paimon.jpg);
+    height: 100vh;
+    padding: 40px 0px 200px 0px;
+} */
